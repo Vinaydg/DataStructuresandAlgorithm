@@ -1,6 +1,6 @@
 package Algorithms;
 
-public class SortingAlgorithms {
+public class BubbleSorting {
     static void BubbleSort(int[] arr){
         int n = arr.length;
         int temp = 0;
@@ -19,8 +19,6 @@ public class SortingAlgorithms {
             }
         }
     }
-
-    static void 
 
     public static void main(String[] args) {
         int[] arr = {5,8,1,3,2,0,-2};
